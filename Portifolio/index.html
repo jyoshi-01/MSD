@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyoshika Portfolio</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav id="header">
+      <div class="nav-logo">
+        <h1>Jyoshika</h1>
+        <p>Software Developer &amp; Designer</p>
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav_list"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav_list"><a href="#Projects" class="nav-link">Projects</a></li>
+          <li class="nav_list"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav_list"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="featured-box">
+      <div class="featured-text">
+        <div class="social_icons">
+          <div class="icon"><i class="uil uil-instagram"></i></div>
+          <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+          <div class="icon"><i class="uil uil-dribbble"></i></div>
+          <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="featured-text-card">
+          <span>Jyoshika</span>
+        </div>
+        <div class="featured-name">
+          <p>I'm Developer</p>
+        </div>
+        <div class="featured-text-info">
+          <p>I'm Jyoshika, a passionate software developer and designer with a drive to create innovative solutions that make a difference. With a strong foundation in computer science and a keen eye for design, I've developed a unique blend of technical skills and creative vision.</p>
+        </div>
+        <div class="featured-text-btn">
+          <button class="btn blue-btn">Hire Me</button>
+          <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+        </div>
+      </div>
+      <div class="featured-image">
+        <img src="./assets/image/profile1.jpeg" alt="Jyoshika's Profile Picture" class="profile-pic">
+      </div>
+    </section>
+    <div class="top-header">
+      <h1>Skills</h1>
+    </div>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>HTML</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>CSS</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 75%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Python</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 80%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    
+    <section id="Projects">
+      <div class="top-header">
+        <h1>Projects</h1>
+      </div>
+      <div class="projects-grid">
+        <div class="project-item">
+          <img src="./assets/image/project1.jpg" alt="Project 1 Screenshot">
+          <h3>Project : FitTrack</h3>
+          <p>FitTrack is a fitness tracking app that allows users to monitor their workouts, set fitness goals, and track their progress over time.</p>
+        </div>
+        <div class="project-item">
+          <img src="./assets/image/project2.jpg" alt="Project 2 Screenshot">
+          <h3>Project 2: TaskMaster</h3>
+          <p>TaskMaster is a productivity app that helps users manage their tasks and deadlines with ease, featuring reminders, to-do lists, and progress tracking.</p>
+        </div>
+        <div class="project-item">
+          <img src="./assets/image/project3.jpg" alt="Project 3 Screenshot">
+          <h3>Project 3: Weather App</h3>
+          <p>The Weather App provides real-time weather updates and forecasts, helping users plan their day with accurate and up-to-date weather information.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="education">
+      <div class="top-header">
+        <h1>Education</h1>
+      </div>
+      <div id="grid-box">
+        <div class="box" id="box-1">
+          <table class="education-table">
+            <thead>
+              <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>CGPA/Percentage</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Bachelor's Degree in Computer Science Engineering</td>
+                <td>Vignan's Foundation for Science, Technology and Research</td>
+                <td>2022-2026</td>
+                <td>8.3</td>
+              </tr>
+              <tr>
+                <td>Higher Secondary Eduacation</td>
+                <td>Nri junior college</td>
+                <td>2020-2022</td>
+                <td>8.5</td>
+              </tr>
+              <tr>
+                <td>Secondary Education</td>
+                <td>Nehru nikathan</td>
+                <td>2019-2020</td>
+                <td>8.2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p>Contact Me</p>
+      <form action="your-action-url" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" class="contact__input" placeholder="Your Name" required>
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="contact__input" placeholder="Your Email" required>
+          
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" class="contact__input" placeholder="Your Message" required></textarea>
+          
+          <input type="submit" value="Send Message" class="contact__button">
+      </form>
+    </section>
+  
+    <footer>
+      <p>© <span id="currentYear"></span> Jyoshika. All rights reserved.</p>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="social_icons footer-social-icons">
+        <div class="icon"><i class="uil uil-instagram"></i></div>
+        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+        <div class="icon"><i class="uil uil-dribbble"></i></div>
+        <div class="icon"><i class="uil uil-github-alt"></i></div>
+      </div>
+    </footer>
+  </main>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
